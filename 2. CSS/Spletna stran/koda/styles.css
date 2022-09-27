@@ -1,0 +1,78 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*HEADEAR*/
+header {
+    background-color: red;
+    background-size: 100%;
+    background-position: center;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    background-image: url("../slike/fri.jpg");
+}
+h1 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.logo {
+    display: inline-block;
+    background-image: url("../slike/logo.png");
+    background-size: 60px;
+    background-position: center;
+    border-radius: 50%;
+    text-indent: -9999999px;
+    height: 50px;
+    width: 50px;
+}
+.naslov {
+    position: relative;
+    min-height: 150px;
+}
+
+/*SECTIONS*/
+section {
+    background: red;
+    margin: 40px 10% 20px 10%;
+    display: flex;
+    align-items: center;
+}
+.programi {
+    background-color: white;
+    color: grey;
+    flex-wrap: wrap;
+}
+section img {
+    width: 40%;
+    float: left;
+}
+section div {
+    padding: 30px;
+}
+figure {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+}
+.programi figure img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: black 0 0 5px;
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+footer {
+    background: black;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+}
